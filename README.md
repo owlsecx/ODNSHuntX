@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Multi-threaded subdomain enumeration, DNSSEC validation, ║
+ODNSHuntX extends DNS reconnaissance with DNSSEC auditing, wildcard detection, record analysis, and related discovery checks. It helps defenders validate DNS posture—including CAA/DS/DNSKEY chains and cloud-provider clues—while enumerating subdomains on authorised targets. Rich export and dashboard-oriented output support assessment reporting.
 
 ---
 
 ## ✨ Features
 
-- DNSSEC chain audit, CAA/DS/DNSKEY validation, cloud detection & advanced subdomain discovery — not a basic enumerator
+- Multi-threaded subdomain enumeration with wildcard detection
+- DNSSEC chain and CAA/DS/DNSKEY oriented validation checks
+- DNS record analysis with zone-transfer attempt visibility
+- Reverse DNS and port-scan correlation helpers
+- Cloud provider detection signals during discovery
+- Live dashboard style feedback with rich export options
 
 ---
 
@@ -39,6 +44,7 @@ Multi-threaded subdomain enumeration, DNSSEC validation, ║
 
 ```bash
 ./ODNSHuntX
+./ODNSHuntX --help
 ```
 
 ---
